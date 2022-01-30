@@ -10,10 +10,10 @@ const unsigned int LARGO_CL = 12;
 const unsigned int LARGO_PROD = 10;
 
 
-    const unsigned int LEER = 1;
-    const unsigned int MOSTRAR_DATOS=2;
-    const unsigned int DESPACHAR_PEDIDOS=3;
-    const unsigned int SALIR=4;
+const unsigned int LEER = 1;
+const unsigned int MOSTRAR_DATOS=2;
+const unsigned int DESPACHAR_PEDIDOS=3;
+const unsigned int SALIR=4;
 
 
 
@@ -292,5 +292,5 @@ int main(){
     }
     VaciarLista(listaPedidos);
     VaciarLista(listaDespachos);
-    return EXIT_SUCCESS;
+    return 0;
 }
